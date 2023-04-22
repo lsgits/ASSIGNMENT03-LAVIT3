@@ -67,29 +67,29 @@ border-color: rgb(9, 200, 243);
   <DIV>
   <fieldset CLASS="F1">
 <LEGEND ALIGN="LEFT"CLASS="F6">PERSONAL INFORMATION</LEGEND>
-FIRST NAME:<INPUT TYPE="TEXT" placeholder="FIRST NAME" required/><BR></BR>
-  LAST NAME:<INPUT TYPE TYPE="TEXT" placeholder="LAST NAME" required/><BR></BR>
+   <label for="First Name">First Name:</label><INPUT TYPE="TEXT" placeholder="FIRST NAME" id="First Name" name="first name" required/><BR></BR>
+  LAST NAME:<label for="Last Name">Last Name:</label><INPUT TYPE TYPE="TEXT" placeholder="LAST NAME" id="Last Name" name="last name" required/><BR></BR>
   </fieldset></DIV>
   <DIV>
     <FIELDSET CLASS="F2">
       <LEGEND ALIGN="LEFT" CLASS="F6">ADDRESS YOURSELF</LEGEND>
      
-      STREET:<INPUT TYPE="TEXT" placeholder="YOUR STREET" required/><br></br>
-      CITY:<INPUT TYPE="TEXT" placeholder="YOUR CITY" required/><br></br>
-      STATE:<INPUT TYPE="TEXT" placeholder="YOUR STATE" required/><br></br>
-      PINCODE:<INPUT TYPE="NUMBER"  placeholder="00-00-00"required/><br></br>
+      <label for="Street">Street</label><INPUT TYPE="TEXT" placeholder="YOUR STREET"  id="Street" name="street" required/><br></br>
+      <label for="City">City:</label><INPUT TYPE="TEXT" placeholder="YOUR CITY"  id="City" name="city" required/><br></br>
+     <label for="State">State:</label><INPUT TYPE="TEXT" placeholder="YOUR STATE" id="State" name="state" required/><br></br>
+    <label for="Pin">Pin:</label><INPUT TYPE="NUMBER"  placeholder="00-00-00" id="Pin" name="pin" required/><br></br>
     </FIELDSET>
   </DIV>
   <DIV>
     <FIELDSET CLASS="F3">
       <LEGEND ALIGN="LEFT"CLASS="F6">CONTACT DETAILS</LEGEND>
-      CONTACT NO:<INPUT TYPE="NUMBER" minlength="10" maxlength="10" placeholder="1234-567-890" pattern="[0-9]{10}" required/>
+      <label for="Contact">Contact:</label><INPUT TYPE="NUMBER" minlength="10" maxlength="10" placeholder="1234-567-890" pattern="[0-9]{10}" id="Contact" name="contact" required/>
     </FIELDSET></DIV>
   <DIV>
     <fieldset CLASS="F4">
       <legend ALIGN="LEFT" class="F6">YOUR EXPERIENCE WITH US</legend>
-      QUALITY OF PRODUCT RECEIVED: BAD<INPUT TYPE="radio" name="bad"/>GOOD<input type="radio" name="bad"/>EXCELLENT<input type="radio"name="bad"/><br></br>
-      VALUE FOR MONEY:BAD<INPUT TYPE="radio" name="good"/>GOOD<input type="radio" name="good"/>EXCELLENT<input type="radio"name="good"/>
+      QUALITY OF PRODUCT RECEIVED: BAD<INPUT TYPE="radio" name="quality" value="bad" >GOOD<input type="radio" value="good" name="quality" />EXCELLENT<input type="radio"name="quality" value="excellent"/><br></br>
+      VALUE FOR MONEY:BAD<INPUT TYPE="radio" name="value for money" value="bad"/>GOOD<input type="radio" name="value for money" value="good"/>EXCELLENT<input type="radio"name="value for money" value="excellent"/>
     </fieldset> <br></br>
     <INPUT TYPE="SUBMIT" NAME="SUBMIT" VALUE="SUBMIT" class="F7" />
   </FORM>
